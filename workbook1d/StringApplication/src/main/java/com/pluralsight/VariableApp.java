@@ -12,7 +12,7 @@ public class VariableApp {
         String favoriteColor = "lavender";
         int startingYear = 2025;
         char middleInitail= 'k';
-         havePet = yes;
+        boolean havePet = true;
         String saying = " If you can't love yourself, how are you gonna love somebody else?";
 
         System.out.println("My favorite color is " + favoriteColor);
