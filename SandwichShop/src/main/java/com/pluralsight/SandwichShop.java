@@ -46,12 +46,7 @@ public class SandwichShop {
 
         System.out.println("Cost:$" + formatted);
 
-
-
-
-
-
-
+     myScanner.close();
 
     }
 }
