@@ -13,16 +13,16 @@ public class FullNameApplication {
      String suffix;
 
         System.out.println("Enter First Name: ");
-        firstName = read.nextLine();
+        firstName = read.nextLine().trim();
 
         System.out.println("Enter Middle Name: ");
-        middleName = read.nextLine();
+        middleName = read.nextLine().trim();
 
         System.out.println("Enter Last Name: ");
-        lastName = read.nextLine();
+        lastName = read.nextLine().trim();
 
         System.out.println("Enter Suffix: ");
-        suffix = read.nextLine();
+        suffix = read.nextLine().trim();
 
         String fullName;
         if(middleName.isEmpty() && suffix.isEmpty()){
