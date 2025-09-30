@@ -38,7 +38,5 @@ public class FullNameApplication {
             fullName = firstName + " " + middleName + " " + lastName + " " + suffix;
             System.out.println(fullName);
         }
-
-
     }
 }
