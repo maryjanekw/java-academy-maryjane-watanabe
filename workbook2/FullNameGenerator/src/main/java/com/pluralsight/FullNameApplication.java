@@ -20,7 +20,6 @@ public class FullNameApplication {
 //      System.out.println(formatedName);
 
 
-
         System.out.println("Enter First Name: ");
         firstName = read.nextLine().trim();
 
