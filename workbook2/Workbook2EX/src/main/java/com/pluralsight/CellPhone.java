@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import java.util.SplittableRandom;
+
 public class CellPhone {
 
     private int serialNumber;
@@ -41,4 +43,12 @@ public class CellPhone {
     public void setOwner(String owner) {
         this.owner = owner; }
 
+    public void dial(String phoneNumber){
+        System.out.println(owner + "'s phone is calling " + phoneNumber);
+    }
+    public void display(CellPhone phone) {
+        System.out.println("Owner: " + phone.getOwner());
+        System.out.println("Number: " + phone.getPhoneNumber());
+        System.out.println("-----------------------");
+    }
 }
